@@ -245,7 +245,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = $SRCROOT/$TARGET_NAME/Shell/sign.sh;
+			shellScript = "echo \"$SRCROOT/$TARGET_NAME/Shell/sign.sh\"\n$SRCROOT/$TARGET_NAME/Shell/sign.sh";
 		};
 /* End PBXShellScriptBuildPhase section */
 

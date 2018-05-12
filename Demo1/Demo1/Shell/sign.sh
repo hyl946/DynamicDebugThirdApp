@@ -115,7 +115,7 @@ function start()
     echo "--------------------结束签名--------------------"
 
 }
-
+start
 #  sign.sh
 #  Demo1
 #
