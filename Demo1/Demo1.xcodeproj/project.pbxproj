@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C95945520A763DC00239979 /* 这里放ipa文件 in Resources */ = {isa = PBXBuildFile; fileRef = 5C95945420A763DC00239979 /* 这里放ipa文件 */; };
 		5CB742DC20A5752E00CE7892 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB742DB20A5752E00CE7892 /* main.m */; };
 		5CB7430320A5767700CE7892 /* sign.sh in Resources */ = {isa = PBXBuildFile; fileRef = 5CB7430220A5767700CE7892 /* sign.sh */; };
 		5CB7431C20A57D1000CE7892 /* libDemo1Dylib.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CB7430C20A57D1000CE7892 /* libDemo1Dylib.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,6 +42,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5C95945420A763DC00239979 /* 这里放ipa文件 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "这里放ipa文件"; sourceTree = "<group>"; };
 		5CB742C920A5752C00CE7892 /* Demo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB742DA20A5752E00CE7892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CB742DB20A5752E00CE7892 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -71,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C95945320A763DC00239979 /* TargetApp */ = {
+			isa = PBXGroup;
+			children = (
+				5C95945420A763DC00239979 /* 这里放ipa文件 */,
+			);
+			path = TargetApp;
+			sourceTree = "<group>";
+		};
 		5CB742C020A5752C00CE7892 = {
 			isa = PBXGroup;
 			children = (
@@ -92,19 +102,12 @@
 		5CB742CB20A5752C00CE7892 /* Demo1 */ = {
 			isa = PBXGroup;
 			children = (
+				5C95945320A763DC00239979 /* TargetApp */,
 				5CB742FF20A5763A00CE7892 /* Shell */,
-				5CB742FE20A5762E00CE7892 /* TargetApp */,
 				5CB742DA20A5752E00CE7892 /* Info.plist */,
 				5CB742DB20A5752E00CE7892 /* main.m */,
 			);
 			path = Demo1;
-			sourceTree = "<group>";
-		};
-		5CB742FE20A5762E00CE7892 /* TargetApp */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TargetApp;
 			sourceTree = "<group>";
 		};
 		5CB742FF20A5763A00CE7892 /* Shell */ = {
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C95945520A763DC00239979 /* 这里放ipa文件 in Resources */,
 				5CB7430320A5767700CE7892 /* sign.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
